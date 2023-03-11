@@ -159,7 +159,7 @@ baker('locator', {
 	},
 
 	translate: function () {
-		this.insertCss('.skiptranslate{display:none}.goog-text-highlight{background-color:transparent!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;box-sizing:initial!important;-webkit-box-sizing:initial!important;}font{vertical-align:unset!important}');
+		this.insertCss('.skiptranslate{display:none!important}.goog-text-highlight{background-color:transparent!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;box-sizing:initial!important;-webkit-box-sizing:initial!important;}font{vertical-align:unset!important}');
 
 		this.loadJs('//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', function () {
 			locator.translateTo()
